@@ -42,6 +42,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+<<<<<<< HEAD
 
 
 #Google Services Files
@@ -51,3 +52,5 @@ ios/Runner/GoogleService-Info.plist
 ios/firebase_app_id_file.json
 macos/Runner/GoogleService-Info.plist
 macos/firebase_app_id_file.json
+=======
+>>>>>>> 16a1025 (finalproject submission)

@@ -1,8 +1,26 @@
+<<<<<<< HEAD
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+=======
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+>>>>>>> 16a1025 (finalproject submission)
     <application
         android:label="finalproject"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+<<<<<<< HEAD
+=======
+
+
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+                   android:value="AIzaSyC0VfkDfuJHQAFttjRzJ8za5ZJRbjkRYq4"/>
+
+>>>>>>> 16a1025 (finalproject submission)
         <activity
             android:name=".MainActivity"
             android:exported="true"
