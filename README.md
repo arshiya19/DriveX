@@ -1,9 +1,5 @@
 # DriveX
 
-[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
-
-
-
 Project Members
   - Sai Charan Modugula
   - Arshiya Naheed
