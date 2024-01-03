@@ -1,31 +1,3 @@
-<<<<<<< HEAD
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/material.dart';
-import 'package:finalproject/firebase_options.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:finalproject/main.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-
-
-GoogleSignIn googleSignIn = GoogleSignIn(
-  scopes: [
-    'email',
-  ],
-);
-
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
-
-  @override
-  State<LoginPage> createState() => _LoginPageState();
-}
-
-class _LoginPageState extends State<LoginPage> {
-  bool _initialized = false;
-  GoogleSignInAccount? googleUser;
-
-=======
 /*
   1. Adjusted paddings with Chatgpt
   2. Referred 467-MW class for google sign in function
@@ -118,7 +90,6 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   //modifed through GPT
->>>>>>> 16a1025 (finalproject submission)
   Future<void> initializeDefault() async {
     FirebaseApp app = await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
@@ -135,12 +106,6 @@ class _MyHomePageState extends State<MyHomePage> {
     }
     // Trigger the authentication flow
     googleUser = await GoogleSignIn().signIn();
-<<<<<<< HEAD
-    if (googleUser != null) {
-      if (kDebugMode) {
-        print(googleUser!.email);
-      }
-=======
     setState(() {
       Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomePage(loaded:_isLoading, position: _currentPosition,)));
     });
@@ -149,7 +114,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
     if (kDebugMode) {
       print(googleUser!.displayName);
->>>>>>> 16a1025 (finalproject submission)
     }
 
     // Obtain the auth details from the request
@@ -161,22 +125,6 @@ class _MyHomePageState extends State<MyHomePage> {
       accessToken: googleAuth?.accessToken,
       idToken: googleAuth?.idToken,
     );
-<<<<<<< HEAD
-    UserCredential userCredential =
-    await FirebaseAuth.instance.signInWithCredential(credential);
-    // Once signed in, return the UserCredential
-    setState(() {});
-    return userCredential;
-  }
-
-  Future<void> _handleSignOut() async {
-    FirebaseAuth.instance.signOut();
-    googleSignIn.signOut();
-    googleSignIn.disconnect();
-    setState(() {
-      googleUser = null;
-    });
-=======
     // Once signed in, return the UserCredential
     return await FirebaseAuth.instance.signInWithCredential(credential);
   }
@@ -185,44 +133,11 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
     getLocation();
->>>>>>> 16a1025 (finalproject submission)
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-<<<<<<< HEAD
-        appBar: AppBar(
-          title: const Text("Login Page"),
-        ),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: getBody(),
-          ),
-        ));
-  }
-
-  List<Widget> getBody() {
-    List<Widget> body = [];
-    if (googleUser != null) {
-      body.add(ListTile(
-        leading: GoogleUserCircleAvatar(identity: googleUser!),
-        title: Text(googleUser!.displayName ?? ''),
-        subtitle: Text(googleUser!.email),
-      ));
-      body.add(Text(FirebaseAuth.instance.currentUser!.uid));
-      body.add(ElevatedButton(
-          onPressed: _handleSignOut, child: const Text("Logout")));
-    } else {
-      body.add(ElevatedButton(
-          onPressed: () {
-            signInWithGoogle();
-          },
-          child: const Text("Login")));
-    }
-    return body;
-=======
 
       body: Center(
         child: Container(
@@ -434,6 +349,5 @@ class _MyHomePageState extends State<MyHomePage> {
         child : const Text('New User? SignUp Here',style: TextStyle(decoration: TextDecoration.underline,fontWeight: FontWeight.bold),),
       ),
     ];
->>>>>>> 16a1025 (finalproject submission)
   }
 }

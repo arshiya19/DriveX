@@ -13,17 +13,10 @@ packages:
     dependency: transitive
     description:
       name: _flutterfire_internals
-<<<<<<< HEAD
-      sha256: "7bcb5c5d62b3907fb4a269c0f0843df46760d38e12829a715f2ff1fb492f19ef"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.10"
-=======
       sha256: eb0ac20f704799b986049fbb3c1c16421eca319a1b872378d669513e12452ba5
       url: "https://pub.dev"
     source: hosted
     version: "1.3.14"
->>>>>>> 16a1025 (finalproject submission)
   analyzer:
     dependency: transitive
     description:
@@ -76,47 +69,26 @@ packages:
     dependency: "direct main"
     description:
       name: cloud_firestore
-<<<<<<< HEAD
-      sha256: "666ae6914f5d9dde04d7fb49c5983d3bf7b887021a79a3ac17de2e95386b8006"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.12.1"
-=======
       sha256: "8fa76be13bf33c7e1521794d8f43e94abb83515201667d00a1e0063351867200"
       url: "https://pub.dev"
     source: hosted
     version: "4.13.3"
->>>>>>> 16a1025 (finalproject submission)
   cloud_firestore_platform_interface:
     dependency: transitive
     description:
       name: cloud_firestore_platform_interface
-<<<<<<< HEAD
-      sha256: f1a9436bc0d7f49e60df33b5eb872772733646d4f211516220a1f6006c8177f5
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.2"
-=======
       sha256: "5683de3ed02dded4857882493a7f359dff8cb9941ef36fa707f1b1cbde054838"
       url: "https://pub.dev"
     source: hosted
     version: "6.0.7"
->>>>>>> 16a1025 (finalproject submission)
   cloud_firestore_web:
     dependency: transitive
     description:
       name: cloud_firestore_web
-<<<<<<< HEAD
-      sha256: "8df1e484d57f771242c2d8b3a534b921dfb0ba144a1cd441f23b1c7c4f33c3a1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.8.2"
-=======
       sha256: "29ed06af42c224e2ada69344b6d42e3d4c5e37f3931ea790733e859c0e5bfbf8"
       url: "https://pub.dev"
     source: hosted
     version: "3.8.7"
->>>>>>> 16a1025 (finalproject submission)
   collection:
     dependency: transitive
     description:
@@ -133,8 +105,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
-<<<<<<< HEAD
-=======
   cross_file:
     dependency: transitive
     description:
@@ -143,7 +113,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.3.3+7"
->>>>>>> 16a1025 (finalproject submission)
   crypto:
     dependency: transitive
     description:
@@ -152,8 +121,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
-<<<<<<< HEAD
-=======
   csslib:
     dependency: transitive
     description:
@@ -162,7 +129,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
->>>>>>> 16a1025 (finalproject submission)
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -171,8 +137,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.6"
-<<<<<<< HEAD
-=======
   dio:
     dependency: transitive
     description:
@@ -181,7 +145,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.6"
->>>>>>> 16a1025 (finalproject submission)
   fake_async:
     dependency: transitive
     description:
@@ -198,8 +161,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.0"
-<<<<<<< HEAD
-=======
   file_selector_linux:
     dependency: transitive
     description:
@@ -232,67 +193,38 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.9.3+1"
->>>>>>> 16a1025 (finalproject submission)
   firebase_auth:
     dependency: "direct main"
     description:
       name: firebase_auth
-<<<<<<< HEAD
-      sha256: ee5e4f6e79483d1b39e2fe81cdef74f4c295c9865e150aefacd615eea96d3e7b
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.12.0"
-=======
       sha256: "869ff488c7b467e273d7be223f52d3d026576b6e1da92dcd136ff627ae0a8c67"
       url: "https://pub.dev"
     source: hosted
     version: "4.15.0"
->>>>>>> 16a1025 (finalproject submission)
   firebase_auth_platform_interface:
     dependency: transitive
     description:
       name: firebase_auth_platform_interface
-<<<<<<< HEAD
-      sha256: a664a8f1dbf73e6a56fd41364bcd0ad24f8d9d57428b365199dc795ee52b7d27
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.2"
-=======
       sha256: ecf9f78ae1a7a1297de01ec975e9e2cfe5b543589b27cc5969849d9a8dc46999
       url: "https://pub.dev"
     source: hosted
     version: "7.0.6"
->>>>>>> 16a1025 (finalproject submission)
   firebase_auth_web:
     dependency: transitive
     description:
       name: firebase_auth_web
-<<<<<<< HEAD
-      sha256: "6a3c8c09c9ffcfea83ac4ce3d18d8b4c467c77d57713b2d786fd69ece5bb4a48"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.8.5"
-=======
       sha256: "96f89e2340cdf373109cb29afec401c170aa2d98fb0833687793c8017e36f435"
       url: "https://pub.dev"
     source: hosted
     version: "5.8.9"
->>>>>>> 16a1025 (finalproject submission)
   firebase_core:
     dependency: "direct main"
     description:
       name: firebase_core
-<<<<<<< HEAD
-      sha256: "37299e4907391d7fac8c7ea059bb3292768cc07b72b6c6c777675cc58da2ef4d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.20.0"
-=======
       sha256: d301561d614487688d797717bef013a264c517d1d09e4c5c1325c3a64c835efb
       url: "https://pub.dev"
     source: hosted
     version: "2.24.0"
->>>>>>> 16a1025 (finalproject submission)
   firebase_core_platform_interface:
     dependency: transitive
     description:
@@ -305,17 +237,10 @@ packages:
     dependency: transitive
     description:
       name: firebase_core_web
-<<<<<<< HEAD
-      sha256: "0631a2ec971dbc540275e2fa00c3a8a2676f0a7adbc3c197d6fba569db689d97"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.8.1"
-=======
       sha256: "10159d9ee42c79f4548971d92f3f0fcd5791f6738cda3583a4e3b2c8b244c018"
       url: "https://pub.dev"
     source: hosted
     version: "2.9.0"
->>>>>>> 16a1025 (finalproject submission)
   flutter:
     dependency: "direct main"
     description: flutter
@@ -325,12 +250,6 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints
-<<<<<<< HEAD
-      sha256: a25a15ebbdfc33ab1cd26c63a6ee519df92338a9c10f122adda92938253bef04
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.3"
-=======
       sha256: e2a421b7e59244faef694ba7b30562e489c2b489866e505074eb005cd7060db7
       url: "https://pub.dev"
     source: hosted
@@ -343,7 +262,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.17"
->>>>>>> 16a1025 (finalproject submission)
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -354,8 +272,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-<<<<<<< HEAD
-=======
   geoflutterfire2:
     dependency: "direct main"
     description:
@@ -412,7 +328,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.2"
->>>>>>> 16a1025 (finalproject submission)
   glob:
     dependency: transitive
     description:
@@ -429,8 +344,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.2"
-<<<<<<< HEAD
-=======
   google_maps:
     dependency: transitive
     description:
@@ -487,22 +400,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.6"
->>>>>>> 16a1025 (finalproject submission)
   google_sign_in:
     dependency: "direct main"
     description:
       name: google_sign_in
-<<<<<<< HEAD
-      sha256: f45038d27bcad37498f282295ae97eece23c9349fc16649154067b87b9f1fd03
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.1.5"
-=======
       sha256: "8f8b94880f2753ccb796744259da529674e49b9af2e372abf6978c590c0ebfef"
       url: "https://pub.dev"
     source: hosted
     version: "6.1.6"
->>>>>>> 16a1025 (finalproject submission)
   google_sign_in_android:
     dependency: transitive
     description:
@@ -515,17 +420,10 @@ packages:
     dependency: transitive
     description:
       name: google_sign_in_ios
-<<<<<<< HEAD
-      sha256: "974944859f9cd40eb8a15b3fe8efb2d47fb7e99438f763f61a1ccd28d74ff4ce"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.6.4"
-=======
       sha256: "81495441405c138e3c638f5097bebaa0db644567b3976e08944cfb8926ff2e6d"
       url: "https://pub.dev"
     source: hosted
     version: "5.6.5"
->>>>>>> 16a1025 (finalproject submission)
   google_sign_in_platform_interface:
     dependency: transitive
     description:
@@ -538,12 +436,6 @@ packages:
     dependency: transitive
     description:
       name: google_sign_in_web
-<<<<<<< HEAD
-      sha256: "939e9172a378ec4eaeb7f71eeddac9b55ebd0e8546d336daec476a68e5279766"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.12.0+5"
-=======
       sha256: "794f5494a945d6dd2654c52f979594ecd2558e5c82ce8272295ba371c93015e6"
       url: "https://pub.dev"
     source: hosted
@@ -556,22 +448,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.15.4"
->>>>>>> 16a1025 (finalproject submission)
   http:
     dependency: transitive
     description:
       name: http
-<<<<<<< HEAD
-      sha256: "759d1a329847dd0f39226c688d3e06a6b8679668e350e2891a6474f8b4bb8525"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
-=======
       sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
       url: "https://pub.dev"
     source: hosted
     version: "0.13.6"
->>>>>>> 16a1025 (finalproject submission)
   http_parser:
     dependency: transitive
     description:
@@ -580,8 +464,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
-<<<<<<< HEAD
-=======
   image_picker:
     dependency: "direct main"
     description:
@@ -646,7 +528,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.2.1+1"
->>>>>>> 16a1025 (finalproject submission)
   js:
     dependency: transitive
     description:
@@ -655,8 +536,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.7"
-<<<<<<< HEAD
-=======
   js_wrapping:
     dependency: transitive
     description:
@@ -665,22 +544,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.4"
->>>>>>> 16a1025 (finalproject submission)
   lints:
     dependency: transitive
     description:
       name: lints
-<<<<<<< HEAD
-      sha256: "0a217c6c989d21039f1498c3ed9f3ed71b354e69873f13a8dfc3c9fe76f1b452"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.1"
-=======
       sha256: cbf8d4b858bb0134ef3ef87841abdf8d63bfc255c266b7bf6b39daa1085c4290
       url: "https://pub.dev"
     source: hosted
     version: "3.0.0"
->>>>>>> 16a1025 (finalproject submission)
   matcher:
     dependency: transitive
     description:
@@ -705,8 +576,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
-<<<<<<< HEAD
-=======
   mime:
     dependency: transitive
     description:
@@ -715,7 +584,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
->>>>>>> 16a1025 (finalproject submission)
   package_config:
     dependency: transitive
     description:
@@ -744,17 +612,10 @@ packages:
     dependency: transitive
     description:
       name: plugin_platform_interface
-<<<<<<< HEAD
-      sha256: da3fdfeccc4d4ff2da8f8c556704c08f912542c5fb3cf2233ed75372384a034d
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.6"
-=======
       sha256: f4f88d4a900933e7267e2b353594774fc0d07fb072b47eedcd5b54e1ea3269f8
       url: "https://pub.dev"
     source: hosted
     version: "2.1.7"
->>>>>>> 16a1025 (finalproject submission)
   pub_semver:
     dependency: transitive
     description:
@@ -771,8 +632,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.1"
-<<<<<<< HEAD
-=======
   rxdart:
     dependency: transitive
     description:
@@ -797,7 +656,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.0.4"
->>>>>>> 16a1025 (finalproject submission)
   sky_engine:
     dependency: transitive
     description: flutter
@@ -811,8 +669,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
-<<<<<<< HEAD
-=======
   sprintf:
     dependency: transitive
     description:
@@ -821,7 +677,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.0"
->>>>>>> 16a1025 (finalproject submission)
   stack_trace:
     dependency: transitive
     description:
@@ -838,8 +693,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
-<<<<<<< HEAD
-=======
   stream_transform:
     dependency: transitive
     description:
@@ -848,7 +701,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
->>>>>>> 16a1025 (finalproject submission)
   string_scanner:
     dependency: transitive
     description:
@@ -881,8 +733,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.2"
-<<<<<<< HEAD
-=======
   uuid:
     dependency: transitive
     description:
@@ -891,7 +741,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.2.1"
->>>>>>> 16a1025 (finalproject submission)
   vector_math:
     dependency: transitive
     description:

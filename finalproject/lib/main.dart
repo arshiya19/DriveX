@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import 'package:finalproject/splashscreen.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
-import 'package:finalproject/splashscreen.dart';
-
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    theme:ThemeData(),
-    home: const SplashScreen(),
-   )
-=======
 /*import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'first.dart';
@@ -265,6 +251,5 @@ void main() async {
       theme:ThemeData(),
       home: const SplashScreen(),
   )
->>>>>>> 16a1025 (finalproject submission)
   );
 }

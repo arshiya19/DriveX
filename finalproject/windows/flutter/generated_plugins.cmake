@@ -4,15 +4,10 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   cloud_firestore
-<<<<<<< HEAD
-  firebase_auth
-  firebase_core
-=======
   file_selector_windows
   firebase_auth
   firebase_core
   geolocator_windows
->>>>>>> 16a1025 (finalproject submission)
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

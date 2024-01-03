@@ -35,12 +35,6 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-<<<<<<< HEAD
-  firebase_core: ^2.20.0
-  firebase_auth: ^4.12.0
-  google_sign_in: ^6.1.5
-  cloud_firestore: ^4.12.1
-=======
   firebase_core: ^2.24.0
   firebase_auth: ^4.15.0
   google_sign_in: ^6.1.5
@@ -52,7 +46,6 @@ dependencies:
   search_map_place_updated: ^0.0.4
   google_places_flutter: ^2.0.6
   geoflutterfire2: ^2.3.15
->>>>>>> 16a1025 (finalproject submission)
 
 dev_dependencies:
   flutter_test:
@@ -63,22 +56,11 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-<<<<<<< HEAD
-  flutter_lints: ^2.0.0
-=======
   flutter_lints: ^3.0.1
->>>>>>> 16a1025 (finalproject submission)
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
-<<<<<<< HEAD
-# The following section is specific to Flutter packages.
-flutter:
-  assets:
-      - assets/google.png
-      - assets/dx logo.png
-=======
 flutter:
   assets:
     - assets/google.png
@@ -93,7 +75,6 @@ flutter:
     - assets/trips.png
 
 # The following section is specific to Flutter packages.
->>>>>>> 16a1025 (finalproject submission)
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -129,8 +110,4 @@ flutter:
   #         weight: 700
   #
   # For details regarding fonts from package dependencies,
-<<<<<<< HEAD
   # see https://flutter.dev/custom-fonts/#from-packages
-=======
-  # see https://flutter.dev/custom-fonts/#from-packages
->>>>>>> 16a1025 (finalproject submission)
