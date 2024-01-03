@@ -1,6 +1,7 @@
 # DriveX
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+[![asciicast](https://asciinema.org/a/113463.png)](https://asciinema.org/a/113463)
+
 
 
 Project Members
