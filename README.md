@@ -4,10 +4,7 @@
 **App Video**
 [![Watch the video](https://i.ytimg.com/vi/3mZxcAxD_5w/maxresdefault.jpg)](https://youtu.be/3mZxcAxD_5w)
 
-
-https://youtu.be/3mZxcAxD_5w
-
-Project Members
+_**Project Members**_
   - Sai Charan Modugula
   - Arshiya Naheed
 
@@ -15,7 +12,7 @@ DriveX is a  mobile app designed for convenient short term car rentals, a hassle
 everything seamlessly through the platform.
 
 
-Key features:
+_**Key features:**_
 
 1. Database: Car Listings and Reservations
     The app stores information on available cars, including model, pricing, and location. Additionally, the database records car reservations, including reservation details such as the 
