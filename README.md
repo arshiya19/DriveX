@@ -2,7 +2,8 @@
 
 
 **App Video**
-[![Watch the video](https://youtu.be/3mZxcAxD_5w/maxresdefault.jpg)]([https://youtu.be/T-D1KVIuvjA](https://youtu.be/3mZxcAxD_5w))
+[![Watch the video](https://i.ytimg.com/vi/3mZxcAxD_5w/maxresdefault.jpg)](https://youtu.be/3mZxcAxD_5w)
+
 
 https://youtu.be/3mZxcAxD_5w
 
